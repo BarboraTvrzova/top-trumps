@@ -1,0 +1,202 @@
+[
+  {
+    "name": "Tallest Building",
+    "category": "Architecture",
+    "record": 828,
+    "year": 2010,
+    "country": "UAE",
+    "attempt_tries": 3,
+    "times_broken": 5,
+    "image_url": "tallest_building.jpg"
+  },
+  {
+    "name": "Fastest Car",
+    "category": "Speed",
+    "record": 490.48,
+    "year": 2019,
+    "country": "USA",
+    "attempt_tries": 2,
+    "times_broken": 7,
+    "image_url": "fastest_car.jpg"
+  },
+  {
+    "name": "Largest Pizza",
+    "category": "Food",
+    "record": 1261.65,
+    "year": 2012,
+    "country": "Italy",
+    "attempt_tries": 5,
+    "times_broken": 1,
+    "image_url": "largest_pizza.jpg"
+  },
+  {
+    "name": "Longest Bridge",
+    "category": "Architecture",
+    "record": 164.8,
+    "year": 2011,
+    "country": "China",
+    "attempt_tries": 4,
+    "times_broken": 3,
+    "image_url": "longest_bridge.jpg"
+  },
+  {
+    "name": "Deepest Dive",
+    "category": "Adventure",
+    "record": 10928,
+    "year": 2019,
+    "country": "USA",
+    "attempt_tries": 6,
+    "times_broken": 2,
+    "image_url": "deepest_dive.jpg"
+  },
+  {
+    "name": "Heaviest Pumpkin",
+    "category": "Agriculture",
+    "record": 1190.49,
+    "year": 2016,
+    "country": "Belgium",
+    "attempt_tries": 8,
+    "times_broken": 4,
+    "image_url": "heaviest_pumpkin.jpg"
+  },
+  {
+    "name": "Highest Jump",
+    "category": "Sport",
+    "record": 2.45,
+    "year": 1993,
+    "country": "Cuba",
+    "attempt_tries": 7,
+    "times_broken": 6,
+    "image_url": "highest_jump.jpg"
+  },
+  {
+    "name": "Oldest Person",
+    "category": "Human",
+    "record": 122,
+    "year": 1997,
+    "country": "France",
+    "attempt_tries": 1,
+    "times_broken": 0,
+    "image_url": "oldest_person.jpg"
+  },
+  {
+    "name": "Fastest Marathon",
+    "category": "Sport",
+    "record": 121,
+    "year": 2018,
+    "country": "Kenya",
+    "attempt_tries": 3,
+    "times_broken": 5,
+    "image_url": "fastest_marathon.jpg"
+  },
+  {
+    "name": "Largest Volcano",
+    "category": "Nature",
+    "record": 60000,
+    "year": "??",
+    "country": "USA",
+    "attempt_tries": 2,
+    "times_broken": 1,
+    "image_url": "largest_volcano.jpg"
+  },
+  {
+    "name": "Smallest Dog",
+    "category": "Animals",
+    "record": 9.65,
+    "year": 2012,
+    "country": "USA",
+    "attempt_tries": 2,
+    "times_broken": 3,
+    "image_url": "smallest_dog.jpg"
+  },
+  {
+    "name": "Longest Hair",
+    "category": "Human",
+    "record": 5.627,
+    "year": 2004,
+    "country": "China",
+    "attempt_tries": 1,
+    "times_broken": 2,
+    "image_url": "longest_hair.jpg"
+  },
+  {
+    "name": "Most Languages Spoken",
+    "category": "Human",
+    "record": 58,
+    "year": 2012,
+    "country": "India",
+    "attempt_tries": 1,
+    "times_broken": 0,
+    "image_url": "most_languages_spoken.jpg"
+  },
+  {
+    "name": "Highest Mountain",
+    "category": "Nature",
+    "record": 8848,
+    "year": "??",
+    "country": "Nepal/China",
+    "attempt_tries": 3,
+    "times_broken": 0,
+    "image_url": "highest_mountain.jpg"
+  },
+  {
+    "name": "Largest Diamond",
+    "category": "Nature",
+    "record": 3106.75,
+    "year": 1905,
+    "country": "South Africa",
+    "attempt_tries": 1,
+    "times_broken": 0,
+    "image_url": "largest_diamond.jpg"
+  },
+  {
+    "name": "Most Books Published",
+    "category": "Literature",
+    "record": 1084,
+    "year": 2015,
+    "country": "UK",
+    "attempt_tries": 2,
+    "times_broken": 1,
+    "image_url": "most_books_published.jpg"
+  },
+  {
+    "name": "Fastest Internet Speed",
+    "category": "Technology",
+    "record": 178000,
+    "year": 2020,
+    "country": "Japan",
+    "attempt_tries": 4,
+    "times_broken": 2,
+    "image_url": "fastest_internet_speed.jpg"
+  },
+  {
+    "name": "Largest Oceanic Dive",
+    "category": "Adventure",
+    "record": 10916,
+    "year": 2019,
+    "country": "USA",
+    "attempt_tries": 3,
+    "times_broken": 1,
+    "image_url": "largest_oceanic_dive.jpg"
+  },
+  {
+    "name": "Most Olympic Medals",
+    "category": "Sport",
+    "record": 28,
+    "year": 2016,
+    "country": "USA",
+    "attempt_tries": 5,
+    "times_broken": 4,
+    "image_url": "most_olympic_medals.jpg"
+  },
+  {
+    "name": "Longest Running TV Show",
+    "category": "Entertainment",
+    "record": 70,
+    "year": 2021,
+    "country": "USA",
+    "attempt_tries": 1,
+    "times_broken": 0,
+    "image_url": "longest_running_tv_show.jpg"
+  }
+]
