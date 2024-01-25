@@ -29,7 +29,7 @@ const Cards = ({
   };
 
   return (
-    <div className="max-w-[40vw] w-56 h-80 relative shadow-xl rounded-md">
+    <div className="w-56 h-80 relative shadow-xl rounded-md mx-auto">
       {data.map((card, i) => {
         return (
           <div

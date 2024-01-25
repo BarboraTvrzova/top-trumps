@@ -25,7 +25,7 @@ function App() {
       ) : (
         <div className="p-4 w-full h-full grid grid-rows-[1fr_2fr_1fr] max-w-[80rem] mx-auto">
           <div className="flex flex-col">
-            <h2>
+            <h2 className="pb-4">
               Score: {score}, Round: {round}
             </h2>
 
@@ -37,7 +37,11 @@ function App() {
             </p>
           </div>
           <div className="p-4 flex justify-center gap-4 lg:justify-between items-center h-full my-auto flex-wrap">
-            <div>
+            <div
+              className={`w-full md:w-[unset]  ${
+                selectedCards.length ? "hidden md:block" : ""
+              }`}
+            >
               <h2 className="text-center mb-2">
                 Player Cards
                 <span className="text-[0.5rem] opacity-80 ml-1">
@@ -52,18 +56,25 @@ function App() {
                 }
               />
             </div>
-            <div className="h-full order-3 lg:order-2">
-              <h2 className="text-center mb-2">Played Cards</h2>
-              <div className="flex gap-4">
-                {selectedCards[0] ? (
-                  <Cards data={[selectedCards[0]]} selected={selectedStat} />
-                ) : null}
-                {selectedCards[1] ? (
-                  <Cards data={[selectedCards[1]]} selected={selectedStat} />
-                ) : null}
+            {selectedCards.length ? (
+              <div className="h-fit w-full md:w-[unset] order-3 lg:order-2">
+                <h2 className="text-center mb-2">Played Cards</h2>
+                <div className="flex gap-4 w-full flex-wrap">
+                  {selectedCards[0] ? (
+                    <Cards data={[selectedCards[0]]} selected={selectedStat} />
+                  ) : null}
+                  {selectedCards[1] ? (
+                    <Cards data={[selectedCards[1]]} selected={selectedStat} />
+                  ) : null}
+                </div>
               </div>
-            </div>
-            <div className="order-1 lg:order-3">
+            ) : null}
+
+            <div
+              className={`order-1 w-full md:w-[unset] lg:order-3 ${
+                selectedCards.length ? "hidden md:block" : ""
+              } `}
+            >
               <h2 className="text-center mb-2">
                 Computer Cards
                 <span className="text-[0.5rem] opacity-80 ml-1">
@@ -73,7 +84,7 @@ function App() {
               <Cards data={cardsComputer} isHidden />
             </div>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center py-4">
             <p className="text-center mb-4 text-xl">{message}</p>
             <button
               className="px-14 py-3 bg-rose-800 rounded-md leading-[1] inline-flex items-center justify-center disabled:opacity-30"
